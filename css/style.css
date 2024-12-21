@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 :root {
@@ -28,11 +30,11 @@ nav {
   font-size: 1.5rem;
 }
 
-.nav-item .nav-link.active, .nav-item .nav-link:hover {
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
   color: #09c !important;
   transition: color 0.5s;
 }
-
 
 /* loader screen */
 .loader-container {
@@ -46,7 +48,6 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #272b30e3;
-
 }
 .loader {
   width: 100px;
