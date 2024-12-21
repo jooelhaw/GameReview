@@ -28,7 +28,5 @@ displayGames();
 
 btnClose.addEventListener('click', (e) => {
   e.preventDefault();
-  const detailsSection = document.querySelector('.details');
-  detailsSection.classList.replace('d-flex', 'd-none');
   displayGames();
 });
