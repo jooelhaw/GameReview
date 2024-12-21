@@ -2,7 +2,6 @@ import games from "./Games.module.js";
 const btnClose = document.getElementById('btnClose');
 function displayGames() {
   const cateGames = new games.Games();
-  cateGames.view();
   // find the active link
   let activeLink = document.querySelector('.nav-link.active');
 
@@ -32,5 +31,4 @@ btnClose.addEventListener('click', (e) => {
   const detailsSection = document.querySelector('.details');
   detailsSection.classList.replace('d-flex', 'd-none');
   displayGames();
-  // window.open('index.html', '_self');
 });

@@ -59,7 +59,6 @@ async function displayAllData(cate) {
         let gameID = gameTemplate.getAttribute("data-gameID");
         // displayGameDetails(gameID);
         let gameDetails = new details.Details();
-        gameDetails.view();
         gameDetails.displayGameDetails(gameID);
       });
     });
